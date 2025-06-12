@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "22e2beeff4df6dae",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a676aee39e7e859",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5300eeaa8c66a339",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cốt_chuyện_chính.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cốt_chuyện_chính"
+            }
+          }
+        ]
+      },
+      {
+        "id": "635a6b787027eb1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c30cf70586bbae07",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d9de988d34371fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "199964eabf5517ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "968cdbe49fa1f099",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Trình duyệt tệp"
+            }
+          },
+          {
+            "id": "e7a1b6ff88acd790",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Tìm kiếm"
+            }
+          },
+          {
+            "id": "e14fdb2bf8e4be56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Đánh dấu"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5110321044922
+  },
+  "right": {
+    "id": "ca8829e42df8e663",
+    "type": "split",
+    "children": [
+      {
+        "id": "9617b45954d0f9bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1126bc1ae6dc91b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AAA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AAA"
+            }
+          },
+          {
+            "id": "e9b6f7ae8c4efef3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AAA.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AAA"
+            }
+          },
+          {
+            "id": "5c4468d059afe0eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "783963a4a166fc11",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AAA.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AAA"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "markdown-importer:Mở trình chuyển đổi Markdown": false,
+      "random-note:Mở ghi chú ngẫu nhiên": false,
+      "workspaces:Quản lý cấu trúc khung làm việc": false,
+      "publish:Xuất bản các thay đổi...": false
+    }
+  },
+  "active": "968cdbe49fa1f099",
+  "lastOpenFiles": [
+    "khái_nhiệm_và_giải_thích/hệ ảo.md",
+    "khái_nhiệm_và_giải_thích/đá_đen.md",
+    "khái_nhiệm_và_giải_thích/hệ_sắt.md",
+    "khái_nhiệm_và_giải_thích/hệ_gió.md",
+    "khái_nhiệm_và_giải_thích/hệ_đá.md",
+    "khái_nhiệm_và_giải_thích/hệ_giảm_nhiệt.md",
+    "khái_nhiệm_và_giải_thích/yog.md",
+    "khái_nhiệm_và_giải_thích/bạch_phiến.md",
+    "nhân_vật/thần_cai_trị.md",
+    "thần/thần_sáng_tạo.md",
+    "AAA.md",
+    "nhân_vật/nhân_vật.md",
+    "nhân_vật/vua_Tần_Thác.md",
+    "nhân_vật/Walfen_Dal.md",
+    "nhật kí phát triển/nhật kí phát triển.md",
+    "cốt chuyện chính.md",
+    "cốt_chuyện_chính.md",
+    "khái_nhiệm_và_giải_thích/con_người.md",
+    "khái_nhiệm_và_giải_thích/các_học_thuyết_và_hệ_quả.md",
+    "khái_nhiệm_và_giải_thích/cây_khởi_nguyên.md",
+    "khái_nhiệm_và_giải_thích/Học_thuyết_Pentagon.md",
+    "khái_nhiệm_và_giải_thích/sinh_vật.md",
+    "khái_nhiệm_và_giải_thích/dòng_thời_gian.md",
+    "nhân_vật/Vua_Ivern(bù nhìn).md",
+    "nhân_vật/Tiểu_Tiên_Mary.md",
+    "nhân_vật/Thợ_săn_gió_cát.md",
+    "AAA_hướng dẫn/Pasted_image_20250524155647.png",
+    "wiki_of_AAA",
+    "nhật kí phát triển/tháng 6 năm 2025",
+    "các mối quan hệ.canvas",
+    "khái_nhiệm_và_giải_thích",
+    "nhật kí phát triển/tháng 5 năm 2025",
+    "nhật kí phát triển",
+    "AAA_hướng dẫn",
+    "thần",
+    "sinh_vật",
+    "nhân_vật"
+  ]
+}

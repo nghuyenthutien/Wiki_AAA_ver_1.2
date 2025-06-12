@@ -1,0 +1,1 @@
+người giết chết [[thần_sáng_tạo]]

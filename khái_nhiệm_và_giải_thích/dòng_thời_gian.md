@@ -1,0 +1,1 @@
+dòng thời gian của az diễn ra hỗn loạn vì khả năng tua ngược thời gian và hồi sinh của [[thần_cai_trị]]

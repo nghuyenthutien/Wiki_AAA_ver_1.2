@@ -1,0 +1,1 @@
+Dal là phiên bản gốc của [[Dalgolgon]], trước khi phiêu lưu với nhóm của mình

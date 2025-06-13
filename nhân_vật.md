@@ -47,10 +47,17 @@ W5
 	[Cardigan](Cardigan.md)  
 	[Amirae](Amirae.md)  
 	[Omerthosa_Cataloga](Omerthosa_Cataloga.md)   
+<<<<<<< HEAD
 	[Swann (Swann Framigo) ](Swann.md)  
 	[Weaver_(Wolfest Fernstein)](Weaver.md)  
 	[Cloudchaser](Cloudchaser.md)  
 	[Okita](Okita.md)  
+=======
+	[Swann (Swann Framigo) ](Swann [Swann Framigo].md)  
+	[Weaver_(Wolfest Fernstein)](Weaver_(Wolfest Fernstein).md)  
+	[Cloudchaser ](Cloudchaser.md)  
+	[Okita ](Okita.md)  
+>>>>>>> 0fd3b3e2b2cbd7a5733eb29e1a43d3104d4562a0
 	[Orchesta](Orchesta.md)   
 	[Kẻ_Canh_Gác_Hải_Đăng](Kẻ_Canh_Gác_Hải_Đăng.md)   
 	[Aiden_Charlotte](Aiden_Charlotte.md)  

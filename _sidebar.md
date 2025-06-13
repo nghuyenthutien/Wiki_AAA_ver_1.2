@@ -1,7 +1,2 @@
 * [Trang chủ](README.md)
 * [AAA Tổng Quan](AAA.md)
-* [Cốt chuyện chính ✨](cốt_chuyện_chính.md)
-* [Các học thuyết](các_học_thuyết_và_hệ_quả.md)
-* [Cây khởi nguyên](cây_khởi_nguyên.md)
-* [Học thuyết Pentagon](Học_thuyết_Pentagon.md)
-* [Sinh vật](sinh_vật.md)

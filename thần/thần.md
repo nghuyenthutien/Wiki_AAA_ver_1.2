@@ -7,10 +7,10 @@
 -Thần có thể xâm nhập ý thức của vật chủ sinh vật sống đang hấp hối hoặc mất ý thức, và chiếm quyền điều khiển. Thần sẽ chết nếu não vật chủ chết trước khi thần kịp thoát ra. 
 -mỗi thần đều có 1 halo riêng, và một hình dáng tùy thích của bọn chúng. Thần không có giới hạn về hình dạng có thể hóa thành nếu còn trạng thái "Thần Cõi"
 cổ thần
-	[[thần_cai_trị]]
-	[[thần_sáng_tạo]]
+	[thần_cai_trị](thần_cai_trị.md)
+	[thần_sáng_tạo](thần_sáng_tạo.md)
 ngoại thần
-	[[Lewis_Caroll]]
-	[[Cú]]
-	[[Cáo]]
-	[[Cò]]
+	[Lewis_Caroll](Lewis_Caroll.md)
+	[Cú](Cú.md)
+	[Cáo](Cáo.md)
+	[Cò](Cò.md)

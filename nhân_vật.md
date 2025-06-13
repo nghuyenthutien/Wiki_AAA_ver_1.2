@@ -48,6 +48,7 @@ W5
 	[Amirae](Amirae.md)  
 	[Omerthosa_Cataloga](Omerthosa_Cataloga.md)   
 <<<<<<< HEAD
+<<<<<<< HEAD
 	[Swann (Swann Framigo) ](Swann.md)  
 	[Weaver_(Wolfest Fernstein)](Weaver.md)  
 	[Cloudchaser](Cloudchaser.md)  
@@ -55,6 +56,10 @@ W5
 =======
 	[Swann (Swann Framigo) ](Swann [Swann Framigo].md)  
 	[Weaver_(Wolfest Fernstein)](Weaver_(Wolfest Fernstein).md)  
+=======
+	[Swann (Swann Framigo) ](Swann.md)  
+	[Weaver_(Wolfest Fernstein)](Weaver.md)  
+>>>>>>> a7d12ff72b2d5028a3cc111616843ecfde4da043
 	[Cloudchaser ](Cloudchaser.md)  
 	[Okita ](Okita.md)  
 >>>>>>> 0fd3b3e2b2cbd7a5733eb29e1a43d3104d4562a0
@@ -68,8 +73,13 @@ W5
 	 [Smiley](Smiley.md)   
 	 [Cáo](Cáo.md)  
 	 [Cò](Cò.md)   
+<<<<<<< HEAD
 	[Raven](Raven.md)   
 	[Rogur](Rogur.md)  
+=======
+	[ Raven](Raven.md)   
+	[ Rogur ](Rogur.md)  
+>>>>>>> a7d12ff72b2d5028a3cc111616843ecfde4da043
 	 [Vua_Ivern(bù nhìn)](Vua_Ivern.md)  
 	[Hoàng_Đế_Ivern](Hoàng_Đế_Ivern.md)   
 	[Lewis_Caroll](Lewis_Caroll.md)  

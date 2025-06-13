@@ -47,7 +47,7 @@ W5
 	[Cardigan ](Cardigan.md)  
 	[Amirae ](Amirae.md)  
 	[Omerthosa_Cataloga](Omerthosa_Cataloga.md)   
-	[Swann (Swann Framigo) ](Swann (Swann Framigo) .md)  
+	[Swann (Swann Framigo) ](Swann [Swann Framigo].md)  
 	[Weaver_(Wolfest Fernstein)](Weaver_(Wolfest Fernstein).md)  
 	[Cloudchaser ](Cloudchaser.md)  
 	[Okita ](Okita.md)  

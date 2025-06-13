@@ -1,1 +1,1 @@
-#nhân_vật #pháp_sư
+#nhân_vật #pháp_sư  

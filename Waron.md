@@ -1,1 +1,1 @@
-#nhân_vật #H_tier
+#nhân_vật #H_tier  

@@ -1,0 +1,32 @@
+import os
+
+def fix_line_breaks_in_md_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    new_lines = []
+    for line in lines:
+        stripped = line.rstrip('\n')
+        if stripped and not stripped.endswith('  '):
+            new_lines.append(stripped + '  \n')
+        else:
+            new_lines.append(line)
+
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.writelines(new_lines)
+
+def fix_all_md_files_in_directory(directory):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.md'):
+                path = os.path.join(root, file)
+                print(f"Sửa: {path}")
+                fix_line_breaks_in_md_file(path)
+
+if __name__ == "__main__":
+    folder_path = input("Nhập đường dẫn đến thư mục chứa file .md: ").strip()
+    if os.path.isdir(folder_path):
+        fix_all_md_files_in_directory(folder_path)
+        print("✅ Đã sửa xong tất cả file .md")
+    else:
+        print("❌ Thư mục không tồn tại.")

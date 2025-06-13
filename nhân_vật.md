@@ -47,40 +47,27 @@ W5
 	[Cardigan](Cardigan.md)  
 	[Amirae](Amirae.md)  
 	[Omerthosa_Cataloga](Omerthosa_Cataloga.md)   
-<<<<<<< HEAD
-<<<<<<< HEAD
 	[Swann (Swann Framigo) ](Swann.md)  
 	[Weaver_(Wolfest Fernstein)](Weaver.md)  
 	[Cloudchaser](Cloudchaser.md)  
 	[Okita](Okita.md)  
-=======
-	[Swann (Swann Framigo) ](Swann [Swann Framigo].md)  
-	[Weaver_(Wolfest Fernstein)](Weaver_(Wolfest Fernstein).md)  
-=======
 	[Swann (Swann Framigo) ](Swann.md)  
 	[Weaver_(Wolfest Fernstein)](Weaver.md)  
->>>>>>> a7d12ff72b2d5028a3cc111616843ecfde4da043
 	[Cloudchaser ](Cloudchaser.md)  
 	[Okita ](Okita.md)  
->>>>>>> 0fd3b3e2b2cbd7a5733eb29e1a43d3104d4562a0
 	[Orchesta](Orchesta.md)   
 	[Kẻ_Canh_Gác_Hải_Đăng](Kẻ_Canh_Gác_Hải_Đăng.md)   
 	[Aiden_Charlotte](Aiden_Charlotte.md)  
 	[Saria](Saria.md)  
 	[Jack_The_Ripper](Jack_The_Ripper.md)  
-	 [Marie_Antoinette](Marie_Antoinette.md)   
-	 [Tiểu_Tiên_Mary](Tiểu_Tiên_Mary.md)   
-	 [Smiley](Smiley.md)   
-	 [Cáo](Cáo.md)  
-	 [Cò](Cò.md)   
-<<<<<<< HEAD
+	[Marie_Antoinette](Marie_Antoinette.md)   
+	[Tiểu_Tiên_Mary](Tiểu_Tiên_Mary.md)   
+	[Smiley](Smiley.md)   
+	[Cáo](Cáo.md) 
+	[Cò](Cò.md)   
 	[Raven](Raven.md)   
-	[Rogur](Rogur.md)  
-=======
-	[ Raven](Raven.md)   
-	[ Rogur ](Rogur.md)  
->>>>>>> a7d12ff72b2d5028a3cc111616843ecfde4da043
-	 [Vua_Ivern(bù nhìn)](Vua_Ivern.md)  
+	[Rogur](Rogur.md)   
+	[Vua_Ivern(bù nhìn)](Vua_Ivern.md)  
 	[Hoàng_Đế_Ivern](Hoàng_Đế_Ivern.md)   
 	[Lewis_Caroll](Lewis_Caroll.md)  
 	[Andromeda](Andromeda.md)  
@@ -104,7 +91,6 @@ W6
 	[Nameless_King](Nameless_King.md)  
 	[Aimlock](Aimlock.md)  
 	[Cloudchaser](Cloudchaser.md)  
-
 	[Swann](Swann.md)  
 	[Cardigan](Cardigan.md)  
 	[Raven](Raven.md)  

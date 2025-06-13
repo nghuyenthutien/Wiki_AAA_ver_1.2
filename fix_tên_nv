@@ -1,32 +1,44 @@
 import os
 import re
 
+def sanitize_filename(filename):
+    # Xóa khoảng trắng thừa
+    filename = filename.strip()
+    # Encode () và khoảng trắng nếu có
+    filename = filename.replace('(', '%28').replace(')', '%29').replace(' ', '%20')
+    return filename
+
 def fix_links_in_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Regex để tìm các link markdown có dấu cách dư
-    fixed_content = re.sub(
-        r'\[([^\]]+?)\]\(\s*([^\s\)]+?)\s*\.md\s*\)',  # Match link kiểu có khoảng trắng
-        lambda m: f'[{m.group(1)}]({m.group(2).strip()}.md)',  # Sửa lại cho gọn
+    def replacer(match):
+        text = match.group(1).strip()
+        file = match.group(2).strip()
+        fixed_filename = sanitize_filename(file)
+        return f"[{text}]({fixed_filename}.md)"
+
+    content = re.sub(
+        r'\[([^\]]+?)\]\(\s*([^\s\)]+?)\s*\.md\s*\)',
+        replacer,
         content
     )
 
     with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(fixed_content)
+        f.write(content)
 
 def fix_all_md_links_in_directory(directory):
     for root, _, files in os.walk(directory):
         for file in files:
             if file.endswith('.md'):
                 filepath = os.path.join(root, file)
-                print(f"Đang sửa: {filepath}")
+                print(f"🔧 Sửa: {filepath}")
                 fix_links_in_file(filepath)
 
 if __name__ == "__main__":
-    folder_path = input("Nhập đường dẫn thư mục chứa các file .md: ").strip()
+    folder_path = input("📂 Nhập đường dẫn thư mục chứa các file .md: ").strip()
     if os.path.isdir(folder_path):
         fix_all_md_links_in_directory(folder_path)
-        print("✅ Đã chuẩn hóa xong các link Markdown.")
+        print("✅ Đã xử lý xong toàn bộ link Markdown.")
     else:
         print("❌ Thư mục không hợp lệ.")

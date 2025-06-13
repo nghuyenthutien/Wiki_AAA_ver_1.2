@@ -1,32 +1,44 @@
 import os
+import re
 
-def fix_line_breaks_in_md_file(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+def sanitize_filename(filename):
+    # Xóa khoảng trắng thừa
+    filename = filename.strip()
+    # Encode () và khoảng trắng nếu có
+    filename = filename.replace('(', '%28').replace(')', '%29')
+    return filename
 
-    new_lines = []
-    for line in lines:
-        stripped = line.rstrip('\n')
-        if stripped and not stripped.endswith('  '):
-            new_lines.append(stripped + '  \n')
-        else:
-            new_lines.append(line)
+def fix_links_in_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.writelines(new_lines)
+    def replacer(match):
+        text = match.group(1).strip()
+        file = match.group(2).strip()
+        fixed_filename = sanitize_filename(file)
+        return f"[{text}]({fixed_filename}.md)"
 
-def fix_all_md_files_in_directory(directory):
+    content = re.sub(
+        r'\[([^\]]+?)\]\(\s*([^\s\)]+?)\s*\.md\s*\)',
+        replacer,
+        content
+    )
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+def fix_all_md_links_in_directory(directory):
     for root, _, files in os.walk(directory):
         for file in files:
             if file.endswith('.md'):
-                path = os.path.join(root, file)
-                print(f"Sửa: {path}")
-                fix_line_breaks_in_md_file(path)
+                filepath = os.path.join(root, file)
+                print(f"🔧 Sửa: {filepath}")
+                fix_links_in_file(filepath)
 
 if __name__ == "__main__":
-    folder_path = input("Nhập đường dẫn đến thư mục chứa file .md: ").strip()
+    folder_path = input("📂 Nhập đường dẫn thư mục chứa các file .md: ").strip()
     if os.path.isdir(folder_path):
-        fix_all_md_files_in_directory(folder_path)
-        print("✅ Đã sửa xong tất cả file .md")
+        fix_all_md_links_in_directory(folder_path)
+        print("✅ Đã xử lý xong toàn bộ link Markdown.")
     else:
-        print("❌ Thư mục không tồn tại.")
+        print("❌ Thư mục không hợp lệ.")

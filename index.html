@@ -26,8 +26,9 @@
         function (hook, vm) {
           hook.doneEach(function () {
             let path = vm.route.path;
-            let filename = path.split('/').pop().replace('.md', '').replace(/_/g, ' ');
-
+            let filename = decodeURIComponent(vm.route.path.split('/').pop())
+                .replace('.md', '')
+                .replace(/_/g, ' ');
             if (filename && !document.querySelector('.custom-title')) {
               let h1 = document.createElement('h1');
               h1.textContent = filename.charAt(0).toUpperCase() + filename.slice(1);

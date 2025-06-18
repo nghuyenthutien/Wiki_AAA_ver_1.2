@@ -8,22 +8,38 @@
 </head>
 <body>
   <div id="app">đợi xíu...</div>
+
   <script>
     window.$docsify = {
       name: 'Wiki of AAA',
       repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
+      loadNavbar: true,
       search: {
         paths: 'auto',
         placeholder: 'Tìm kiếm...',
         noData: 'Không có kết quả!',
-         depth: 2,
+        depth: 2,
       },
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            let path = vm.route.path;
+            let filename = path.split('/').pop().replace('.md', '').replace(/_/g, ' ');
 
-      loadNavbar: true
-    }
+            if (filename && !document.querySelector('.custom-title')) {
+              let h1 = document.createElement('h1');
+              h1.textContent = filename.charAt(0).toUpperCase() + filename.slice(1);
+              h1.className = 'custom-title';
+              document.querySelector('#main').prepend(h1);
+            }
+          });
+        }
+      ]
+    };
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>

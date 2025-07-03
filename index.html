@@ -40,26 +40,7 @@
       ]
     };
   </script>
-  <script>
-    // Ghi đè lại cách render kết quả tìm kiếm (decode tiêu đề)
-    function decodeSearchResultTitles() {
-      const observer = new MutationObserver(() => {
-        document.querySelectorAll('.results-panel h2, .results-panel a').forEach(el => {
-          try {
-            el.textContent = decodeURIComponent(el.textContent);
-          } catch (e) {}
-        });
-        obs.disconnect(); // Ngăn vòng lặp vô hạn
-      });
-      observer.observe(document.body, { childList: true, subtree: true });
-    }
   
-    if (document.readyState === 'complete') {
-      decodeSearchResultTitles();
-    } else {
-      window.addEventListener('DOMContentLoaded', decodeSearchResultTitles);
-    }
-  </script>
   
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

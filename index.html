@@ -49,6 +49,7 @@
             el.textContent = decodeURIComponent(el.textContent);
           } catch (e) {}
         });
+        obs.disconnect(); // Ngăn vòng lặp vô hạn
       });
       observer.observe(document.body, { childList: true, subtree: true });
     }
